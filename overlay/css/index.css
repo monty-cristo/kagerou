@@ -8,14 +8,12 @@ html {
 body {
   font-family: var(--body-font);
   margin: 0 !important;
-  height: 100%;
 
   user-select: none;
   -webkit-user-select: none;
 }
 body.overlay {
   margin: 0.5rem 0.25rem 0.25rem 0.25rem !important;
-  height: calc(100% - 0.25rem) !important;
 }
 /* Resize handle */
 body::after {
